@@ -4,6 +4,7 @@ class Solution:
         arr = [(score[i], i) for i in range(n)]
         arr.sort(reverse = True)
         result = [" "] * n
+        
         for i in range(n):
             idx = arr[i][1]
             if i == 0:
