@@ -6,7 +6,6 @@ class Solution:
             if flowerbed[i] == 0:
                 left = (i == 0) or (flowerbed[i-1] == 0)
                 right = (i == size-1) or (flowerbed[i+1] == 0)
-
                 if left and right:
                     flowerbed[i] = 1
                     count += 1
