@@ -11,5 +11,4 @@ class Solution:
                 result.append("Buzz")
             else:
                 result.append(str(i))
-        
         return result
