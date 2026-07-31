@@ -7,6 +7,5 @@ class Solution:
                 total += weights[ord(ch) - ord('a')]
             val = total % 26
             mapped_char = chr(ord('z') - val)
-
             res.append(mapped_char)
         return "".join(res)
